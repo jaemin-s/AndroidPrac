@@ -15,6 +15,20 @@ class RecycleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycle)
 
+        val recyclerView: RecyclerView = findViewById(R.id.rv)
+        recyclerView.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
+
+        val userList = arrayListOf<UserInfo>()
+        for(i in 19..60){
+            userList.add(UserInfo("Kim",i))
+        }
+
+        val adapter = RvAdapter(userList)
+        recyclerView.adapter = adapter
+
+
+
+
 
 
 
