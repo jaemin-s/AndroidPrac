@@ -15,37 +15,62 @@ class RecycleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycle)
 
-        var recyclerView: RecyclerView = findViewById(R.id.rv)
-        recyclerView.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
 
-        val userList = arrayListOf(
-            UserInfo("Kim",19),
-            UserInfo("Lee",24),
-            UserInfo("Sim",29),
-            UserInfo("Seo",23),
-            UserInfo("Kim",19),
-            UserInfo("Lee",29),
-            UserInfo("Lee",34),
-            UserInfo("Kim",14),
-            UserInfo("Kim",22),
-            UserInfo("Kim",21),
-            UserInfo("Lee",24),
-            UserInfo("Kim",19),
-            UserInfo("Lee",24),
-            UserInfo("Sim",29),
-            UserInfo("Seo",23),
-            UserInfo("Kim",19),
-            UserInfo("Lee",29),
-            UserInfo("Lee",34),
-            UserInfo("Kim",14),
-            UserInfo("Kim",22),
-            UserInfo("Kim",21),
-            UserInfo("Lee",24),
-        )
 
-        val adapter = RvAdapter(userList)
 
-        recyclerView.adapter = adapter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        var recyclerView: RecyclerView = findViewById(R.id.rv)
+//        recyclerView.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
+//
+//        val userList = arrayListOf(
+//            UserInfo("Kim",19),
+//            UserInfo("Lee",24),
+//            UserInfo("Sim",29),
+//            UserInfo("Seo",23),
+//            UserInfo("Kim",19),
+//            UserInfo("Lee",29),
+//            UserInfo("Lee",34),
+//            UserInfo("Kim",14),
+//            UserInfo("Kim",22),
+//            UserInfo("Kim",21),
+//            UserInfo("Lee",24),
+//            UserInfo("Kim",19),
+//            UserInfo("Lee",24),
+//            UserInfo("Sim",29),
+//            UserInfo("Seo",23),
+//            UserInfo("Kim",19),
+//            UserInfo("Lee",29),
+//            UserInfo("Lee",34),
+//            UserInfo("Kim",14),
+//            UserInfo("Kim",22),
+//            UserInfo("Kim",21),
+//            UserInfo("Lee",24),
+//        )
+//
+//        val adapter = RvAdapter(userList)
+//
+//        recyclerView.adapter = adapter
 
     }
 }
